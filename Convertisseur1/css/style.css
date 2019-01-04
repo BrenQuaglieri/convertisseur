@@ -1,0 +1,43 @@
+body {
+  background-color: #121212;
+  display: flex;
+  justify-content: center;
+  font-family: 'Ropa Sans', sans-serif;
+}
+
+h2 {
+  color: white;
+}
+
+.devises {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.toggle {
+  width: 30px;
+  margin-top: 4px;
+}
+
+input {
+  background-color: #252525;
+  border: 0px;
+  color: white;
+  height: 20px;
+  margin: 0px;
+  padding: 3px;
+  padding-left: 6px;
+  width: 220px;
+  border-radius: 5px 0 0 5px;
+}
+
+h3 {
+  width: 80px;
+  background-color: #232323;
+  color: white;
+  height: 20px;
+  margin: 0px;
+  padding: 3px;
+  border-radius: 0 5px 5px 0;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>convertisseur</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ropa+Sans" rel="stylesheet">
+</head>
+<body>
+<div>
+<h2>CONVERTISSEUR MONNAIES</h2>
+<br>
+<form name="Form1" autocomplete="">
+<div class="devises">
+    <input id="euros" type="text" name="Euros" onkeyup="ConvertirEnLivres(), ConvertirEnDollars(), ConvertirEnYens()" value="">
+    <h3>Euros</h3>
+</div>
+<br>
+<div class="devises">
+    <input id="livres" type="text" name="Livres" onkeyup="ConvertirEnDollars(), ConvertirEnYens(), ConvertirEnEuros()" value="">
+    <h3>Livres</h3>
+</div>
+<br>
+<div class="devises">
+    <input id="yens" type="text" name="Yens" onkeyup="ConvertirEnEuros(), ConvertirEnLivres(), ConvertirEnDollars()" value="">
+    <h3>Yens</h3>
+</div>
+<br>
+<div class="devises">
+    <input id="dollars" type="text" name="Dollars" onkeyup="ConvertirEnYens(), ConvertirEnEuros(), ConvertirEnLivres()" value="">
+    <h3>Dollars</h3>
+</div>
+</form>
+</div>
+<script src="../js/app.js">
+</script>
+</body>
+</html>
